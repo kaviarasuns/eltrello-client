@@ -4,12 +4,12 @@
 
 export const environment = {
   production: true,
-  // apiUrl: 'http://localhost:4001/api',
-  // socketUrl: 'http://localhost:4001',
   apiUrl: 'http://34.192.190.62/api',
   socketUrl: 'http://34.192.190.62',
 };
 
+// apiUrl: 'http://localhost:4001/api',
+// socketUrl: 'http://localhost:4001',
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
