@@ -3,16 +3,10 @@ import { BehaviorSubject, Observable } from 'rxjs';
 import { CurrentUserInterface } from '../types/currentUser.interface';
 import { HttpClient } from '@angular/common/http';
 import { filter, map } from 'rxjs';
-// import { environment } from 'src/environments/environment';
+import { environment } from 'src/environments/environment';
 import { RegisterRequestInterface } from '../types/registerRequest.interface';
 import { LoginRequestInterface } from '../types/loginRequest.interface';
 import { SocketService } from 'src/app/shared/services/socket.service';
-
-const environment = {
-  production: true,
-  apiUrl: 'http://34.192.190.62/api',
-  socketUrl: 'http://34.192.190.62',
-};
 
 @Injectable()
 export class AuthService {

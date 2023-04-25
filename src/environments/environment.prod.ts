@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://34.192.190.62:80/api',
-  socketUrl: 'http://34.192.190.62:80',
+  apiUrl: 'https://eltrello.teamrepublic.in/api',
+  socketUrl: 'https://eltrello.teamrepublic.in/',
 };
